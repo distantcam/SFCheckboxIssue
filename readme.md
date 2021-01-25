@@ -1,0 +1,1 @@
+![!screenshot showing the layout issue](screenshot.png)
