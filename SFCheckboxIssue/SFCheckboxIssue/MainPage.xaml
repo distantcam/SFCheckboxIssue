@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="SFCheckboxIssue.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms">
+
+    <StackLayout Margin="20,50" VerticalOptions="CenterAndExpand">
+        <buttons:SfCheckBox
+            BackgroundColor="Cyan"
+            LineBreakMode="WordWrap"
+            Text="Long text with lots of words that will wrap on a phone screen. The wrap needs to be at least four lines to demonstrate the problem." />
+        <buttons:SfCheckBox
+            BackgroundColor="Cyan"
+            LineBreakMode="WordWrap"
+            Text="Superlongwordsthatdonthavespaces12345 at the beginning and ending of the multiline text blah blah blah are causing height display issues. Blah blah abracadabra" />
+        <buttons:SfCheckBox
+            BackgroundColor="Cyan"
+            LineBreakMode="WordWrap"
+            Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
+        <buttons:SfCheckBox
+            BackgroundColor="Cyan"
+            LineBreakMode="WordWrap"
+            Text="AAAAAAAAAAAAA123494558945AAAAALL CAPS IS ALSO CAUSING LAYOUT ISSUES. Blah blah blah blah blah blah blah blah blah blah blah blah blah. And underhang letters jgjgjgjgjgjgjgjgjgjgjgjgjgjgjgjgjgjgjg" />
+    </StackLayout>
+
+</ContentPage>
